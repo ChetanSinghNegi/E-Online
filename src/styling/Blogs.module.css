@@ -1,0 +1,76 @@
+.renderContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* gap: 6px; */
+  column-gap: 20px;
+  /* row-gap: 24px; */
+  /* background-color: blanchedalmond; */
+  margin: 3vh 10vw 18vh 12vw;
+  height: max-content;
+  padding: 1rem;
+  /* background-color: white; */
+  /* border: dotted; */
+}
+
+.readContainer {
+  /* background-color: yellowgreen; */
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  margin: 0 15vw 8vh 15vw;
+  position: relative;
+  height: 10vh;
+}
+.readContainer span {
+  font-size: 45px;
+}
+
+.readContainer button {
+  position: absolute;
+  right: 0%;
+  padding: 14px 30px;
+  margin: 1vh 0;
+  border-radius: 0.8rem;
+  background-color: rgba(1, 125, 110, 255);
+}
+.readContainer button:hover {
+  cursor: pointer;
+}
+
+.blogsCard {
+  height: 60vh;
+  border-radius: 0.8rem;
+  width: 22vw;
+  overflow-y: hidden;
+  background-color: white;
+  box-shadow: 2px 5px 10px grey;
+}
+.blogsCard:hover {
+  cursor: pointer;
+}
+.blogsCard span {
+  font-size: 12px;
+  font-family: Optima;
+  color: gray;
+  background-color: transparent;
+  margin: 10px 20px 10px 10px;
+}
+.blogsCard div {
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(85, 82, 82);
+  margin: 10px 20px 10px 10px;
+}
+.blogsCard a {
+  text-decoration: none;
+  color: #778ca3;
+  background-color: transparent;
+}
+
+.blogsImg {
+  height: 35vh;
+  width: 100%;
+  object-fit: fill;
+  background-color: white;
+}

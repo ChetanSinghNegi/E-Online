@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #e9f7f8;
+  max-width: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.logo-container {
+  position: relative;
+  height: 100%;
+}
+
+.logo-img {
+  position: absolute;
+  top: 1px;
+  color: #1e90ff;
+  width: 5vw;
+  height: 4vw;
+  overflow: hidden;
+}
+.logo-container span {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  font-size: 25px;
+  color: rgba(1, 125, 110, 255);
+}
+
+.main-dash {
+  align-items: center;
+  margin-top: 5vh;
+  padding-top: 3vh;
+  /* background-color: yellow; */
+  height: 15vh;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 15vw 15vw 35vw 20vw 15vw;
+
+  /* padding: 10px; */
+}
+.dashboard-links {
+  list-style: none;
+  /* background-color: green; */
+  /* align-items: center; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  top: 18px;
+  /* background-color: blue; */
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: rgba(1, 125, 110, 255);
+  transition: all 0.5s linear;
+}
+.nav-link:hover::before {
+  width: 100%;
+}
+.get-started {
+  border-radius: 0.8rem;
+  background-color: rgba(1, 125, 110, 255);
+  /* border: none; */
+  color: white;
+  padding: 18px 15px;
+  margin: 0 5vw 4vh 5vw;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}

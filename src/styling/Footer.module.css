@@ -1,0 +1,70 @@
+.footerContainer {
+  width: 100vw;
+  height: 40vh;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 10vw 16vw 16vw 16vw 16vw 16vw 10vw;
+  overflow: none;
+  font-family: "Trebuchet MS", sans-serif;
+  /* text-decoration: none; */
+}
+
+.unorderedList {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+}
+
+.list {
+  color: gray;
+  overflow-y: hidden;
+  padding-bottom: 1rem;
+}
+/* .list:hover {
+  background-color: rgba(1, 125, 110, 255);
+} */
+/* .socialIcon + .list:hover {
+  background-color: rgba(1, 125, 110, 255);
+} */
+#hov:hover {
+  color: black;
+  font-family: Helvetica;
+}
+.logo {
+  color: #1e90ff;
+  width: 5vw;
+  height: 5vw;
+}
+.footerContainer span div:nth-child(4) {
+  padding-right: 8vh;
+  /* background-color: yellow; */
+}
+.footerContainer span div:nth-child(3) {
+  margin-top: 1rem;
+  /* background-color: yellow; */
+}
+.heading {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.eOnlineContainer {
+  position: relative;
+  background-color: yellow;
+}
+.eOnline {
+  position: absolute;
+  margin-top: 1.5rem;
+  font-size: 20px;
+}
+.socialIcon {
+  margin: 2px 5px;
+}
+.socialIcon:hover {
+  scale: 1.2;
+}
+.list a:hover {
+  color: black;
+  font-family: Helvetica;
+}
